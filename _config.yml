@@ -3,8 +3,8 @@ title:              'InspireHER Niagara'
 bio:                'InspireHER Niagara - Jekyll version of the Massively theme by HTML5UP'
 description:        "InspireHER Niagara - Jekyll version of the Massively theme by HTML5UP"
 locale:             en_CA
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+baseurl: "/index.html" # the subpath of your site, e.g. /blog
+url: "https://klinhdo.github.io/" # the base hostname & protocol for your site
 
 # Comments
 disqus_shortname:   default
