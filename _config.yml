@@ -3,7 +3,7 @@ title:              'InspireHER Niagara'
 bio:                'InspireHER Niagara - Jekyll version of the Massively theme by HTML5UP'
 description:        "InspireHER Niagara - Jekyll version of the Massively theme by HTML5UP"
 locale:             en_CA
-baseurl: "/index.html" # the subpath of your site, e.g. /blog
+baseurl: "/inspireher" # the subpath of your site, e.g. /blog
 url: "https://klinhdo.github.io/" # the base hostname & protocol for your site
 
 # Comments
@@ -66,3 +66,5 @@ jekyll-mentions:
 
 # Exclude list
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, old]
+
+theme: jekyllup/jekyll-theme-massively
