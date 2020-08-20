@@ -1,7 +1,7 @@
 # Site
 title:              'InspireHER Niagara'
-bio:                'InspireHER Niagara - Jekyll version of the Massively theme by HTML5UP'
-description:        "InspireHER Niagara - Jekyll version of the Massively theme by HTML5UP"
+bio:                'InspireHER Niagara - Inspire girls to be future leaders'
+description:        "InspireHER Niagara - Inspire girls to be future leaders"
 locale:             en_CA
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://inspireherniagara.ca/" # the base hostname & protocol for your site
@@ -19,7 +19,7 @@ instagram:          inspireherniagara
 # personal
 location:           Niagara Region, Ontario
 phone:              905-324-2807
-email:              inspireherniagara@gmail.com # change this to your email to receive free emails for your contact submissions via Slapform.com
+email:              hello@inspireherniagara.ca # change this to your email to receive free emails for your contact submissions via Slapform.com
 
 # Other
 background_image:   /images/bg.jpg
