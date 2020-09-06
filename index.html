@@ -26,81 +26,78 @@ sitemap:
 			<div id="wrapper" class="fade-in">
 
 				<!-- Intro -->
-					<div id="intro">
-            			<h1>{{site.title}}</h1>
-						<h2>Inspire girls to be future leaders <br /> & tomorrow's innovators</h2>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+				<div id="intro">
+					<h1>{{site.title}}</h1>
+					<h2>Inspire girls to be future leaders <br /> & tomorrow's innovators</h2>
+					<ul class="actions">
+						<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
+					</ul>
+				</div>
 
 				<!-- Header -->
-					<header id="header">
-						<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
-					</header>
+				<header id="header">
+					<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
+				</header>
 
 				<!-- Nav -->
-					<nav id="nav">
-
-            {% include nav.html %}
-
-					</nav>
+				<nav id="nav">
+					{% include nav.html %}
+				</nav>
 
 				<!-- Main -->
-					<div id="main">
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<h2><a href="#">Massively is a versatile Jekyll theme</a></h2>
-									<p>We're InspireHER Niagara, and we inspire girls in Niagara Region to be future leaders by offering workshops and opportunities.</p>
-								</header>
-								<a href="#" class="image main"><img src="{{ "/images/pic01.jpg" | absolute_url }}" alt="" /></a>
-                <p>Regardless of your website's function, the homepage is what brings the user in.
-                  If it's anything short of intriguing, captivating, or just plain cool, you're out of luck and you might deter some visitors.</p>
-                <p>Your homepage must clearly describe what your site is about.
-									Having engaging content will in this manner enable you to offer and it will make your customers more inclined to purchase from you. Content is a way to position your organization in the correct place for your clients to discover you.
-								</p>
-								<p>
-									In this manner, content in itself is a standout amongst the best promoting apparatuses in your whole advertising toolbox! Rather than making your content around your promoting technique, it's limitlessly more productive to fabricate your showcasing around your content.
-								 </p>
+				<div id="main">
+					<!-- Intro -->
+					<article class="post featured">
+						<header class="major">
+							<h2>Welcome to InspireHER Niagara</h2>
+							<!--<p>We're InspireHER Niagara, and we inspire girls in Niagara Region to be future leaders by offering workshops and opportunities.</p>-->
+						</header>
+						<p>InspireHER Niagara aspires to bridge the male-female gender equality gap by introducing more opportunities to girls and addressing challenges that girls age 13-18 in Niagara Region face. 
+						</p>
+					
+						<ul class="actions">
+							<li><a href="/about" class="button special">LEARN MORE</a></li>
+							<li><a href="/blog" class="button special">OUR EVENTS</a></li>
+						</ul>
+					</article>
+					
+					
+					<!-- Posts -->
+					<!--<section class="posts">
+						{% for post in site.posts limit:3 %}
+						{% assign mod3 = forloop.index | modulo: 3 %}
+						<article>
+							<header>
+								<span class="date">{{ post.date | date_to_string }}</span>
+								<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
+							</header>
+							<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
+							<p>{{ post.excerpt }}</p>
+							<ul class="actions">
+								<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
+							</ul>
+						</article>
+						
+						{% if mod3 == 0 %}
+						<article>
+							<header>
+								<h2><a href="#">Sponsored</a></h2>
+							</header>
 
-							</article>
+						</article>
+						{% endif %}
+						{% endfor %}
 
-						<!-- Posts -->
-							<section class="posts">
-                {% for post in site.posts limit:3 %}
-                {% assign mod3 = forloop.index | modulo: 3 %}
-  								<article>
-  									<header>
-  										<span class="date">{{ post.date | date_to_string }}</span>
-  										<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
-  									</header>
-  									<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
-  									<p>{{ post.excerpt }}</p>
-  									<ul class="actions">
-  										<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
-  									</ul>
-  								</article>
-                  {% if mod3 == 0 %}
-                  <article>
-  									<header>
-  										<h2><a href="#">Sponsored</a></h2>
-  									</header>
+					</section>-->
 
-  								</article>
-                  {% endif %}
-                {% endfor %}
+					<!-- Footer -->
+					<!--<footer>
+						<ul class="actions">
+							<li><a href="{{ "/blog/" | absolute_url }}" class="button">Our Blog</a></li>
+						</ul>
+					</footer>-->
 
-							</section>
-
-						<!-- Footer -->
-							<footer>
-                <ul class="actions">
-                  <li><a href="{{ "/blog/" | absolute_url }}" class="button">Our Blog</a></li>
-                </ul>
-							</footer>
-
-					</div>
+				</div>
 
 				<!-- Footer -->
         {% include foot.html %}
