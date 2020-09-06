@@ -4,7 +4,7 @@ bio:                'InspireHER Niagara - Inspire girls to be future leaders'
 description:        "InspireHER Niagara - Inspire girls to be future leaders"
 locale:             en_CA
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://inspireherniagara.ca/" # the base hostname & protocol for your site
+url: "https://inspireherniagara.ca" # the base hostname & protocol for your site
 
 # Comments
 disqus_shortname:   default
