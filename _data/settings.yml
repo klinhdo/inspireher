@@ -3,12 +3,12 @@
 
 title: InspireHER Niagara
 logo: 
-author: themefisher
+author: 
 description: this is meta description
 email: hello@inspireherniagara.ca
 phone: +1 (905)-324-2807
 address: Niagara Region, Ontario, Canada
-copyright: Copyright &copy; 2021 - Made with love at InspireHER Niagara - Themed originally designed by [Themefisher](https://themefisher.com) & developed by [Getjekyllthemes](https://getjekyllthemes.com)
+copyright: Copyright &copy; 2021 - Made with love at InspireHER Niagara <br> Themed originally designed by [Themefisher](https://themefisher.com) & developed by [Getjekyllthemes](https://getjekyllthemes.com)
 
 menu:
 #- {name: About, link: '/about'}
