@@ -1,114 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-    <url>
-      <loc>https://inspireherniagara.ca/blog/welcome-to-massively-the-jekyll-theme/</loc>
-      
-        <lastmod>2017-10-31T00:00:00-04:00</lastmod>
-      
-      <changefreq>weekly</changefreq>
-      <priority>0.7</priority>
-    </url>
-  
-  
-    <url>
-      <loc>https://inspireherniagara.ca/about/</loc>
-       <lastmod>2017-11-02T00:00:00-04:00</lastmod>
-      
-       <changefreq>weekly</changefreq>
-      
-       <priority>0.7</priority>
-      
-     </url>
-  
-    <url>
-      <loc>https://inspireherniagara.ca/blog/</loc>
-       <lastmod>2017-11-02T00:00:00-04:00</lastmod>
-      
-       <changefreq>weekly</changefreq>
-      
-       <priority>1.0</priority>
-      
-     </url>
-  
-    <url>
-      <loc>https://inspireherniagara.ca/elements/</loc>
-       <lastmod>2017-11-02T00:00:00-04:00</lastmod>
-      
-       <changefreq>weekly</changefreq>
-      
-       <priority>0.7</priority>
-      
-     </url>
-  
-    <url>
-      <loc>https://inspireherniagara.ca/</loc>
-       <lastmod>2017-11-02T00:00:00-04:00</lastmod>
-      
-       <changefreq>weekly</changefreq>
-      
-       <priority>1.0</priority>
-      
-     </url>
-  
-    <url>
-      <loc>https://inspireherniagara.ca/assets/css/main.css</loc>
-       <lastmod>2017-11-10T00:20:35+00:00</lastmod>
-      
-       <changefreq>weekly</changefreq>
-      
-       <priority>0.5</priority>
-      
-     </url>
-  
-    <url>
-      <loc>https://inspireherniagara.ca/assets/css/noscript.css</loc>
-       <lastmod>2017-11-10T00:20:35+00:00</lastmod>
-      
-       <changefreq>weekly</changefreq>
-      
-       <priority>0.5</priority>
-      
-     </url>
-  
-    <url>
-      <loc>https://inspireherniagara.ca/sitemap.xml</loc>
-       <lastmod>2017-11-10T00:20:35+00:00</lastmod>
-      
-       <changefreq>weekly</changefreq>
-      
-       <priority>0.5</priority>
-      
-     </url>
-  
-    <url>
-      <loc>https://inspireherniagara.ca/thank-you/</loc>
-       <lastmod>2017-11-10T00:20:35+00:00</lastmod>
-      
-       <changefreq>weekly</changefreq>
-      
-       <priority>0.5</priority>
-      
-     </url>
-  
-    <url>
-      <loc>https://inspireherniagara.ca/feed.xml</loc>
-       <lastmod>2017-11-10T00:20:35+00:00</lastmod>
-      
-       <changefreq>weekly</changefreq>
-      
-       <priority>0.5</priority>
-      
-     </url>
-  
-    <url>
-      <loc>https://inspireherniagara.ca/feed.xslt.xml</loc>
-       <lastmod>2017-11-10T00:20:35+00:00</lastmod>
-      
-       <changefreq>weekly</changefreq>
-      
-       <priority>0.5</priority>
-      
-     </url>
-  
+<url>
+<loc>/2017/05/26/amazon-increase-income-1.5-million/</loc>
+<lastmod>2017-05-26T03:05:55-04:00</lastmod>
+</url>
+<url>
+<loc>/2017/05/26/amazon-increase-income-1.5-million-copy/</loc>
+<lastmod>2017-05-26T04:05:55-04:00</lastmod>
+</url>
+<url>
+<loc>/2017/05/26/amazon-increase-income-1.5-million-copy-5/</loc>
+<lastmod>2017-05-26T05:05:55-04:00</lastmod>
+</url>
+<url>
+<loc>/2017/05/26/amazon-increase-income-1.5-million-copy-4/</loc>
+<lastmod>2017-05-26T06:05:55-04:00</lastmod>
+</url>
+<url>
+<loc>/2017/05/26/amazon-increase-income-1.5-million-copy-3/</loc>
+<lastmod>2017-05-26T07:05:55-04:00</lastmod>
+</url>
+<url>
+<loc>/2017/05/26/amazon-increase-income-1.5-million-copy-2/</loc>
+<lastmod>2017-05-26T08:05:55-04:00</lastmod>
+</url>
+<url>
+<loc>/about.html</loc>
+</url>
+<url>
+<loc>/contact.html</loc>
+</url>
+<url>
+<loc>/event.html</loc>
+</url>
+<url>
+<loc>/</loc>
+</url>
+<url>
+<loc>/portfolio.html</loc>
+</url>
 </urlset>

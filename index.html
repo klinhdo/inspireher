@@ -1,112 +1,23 @@
 ---
-layout: null
-title: InspireHER Niagara - Home Page
-description: Welcome to InspireHER Niagara Home Page.
-sitemap:
-    priority: 1.0
-    lastmod: 2017-11-02
-    changefreq: weekly
+layout: default
 ---
-<!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-  Jekyll integration by somiibo.com
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-    {% include head.html %}
 
+{% include hero-section.html %}
 
-	</head>
-	<body class="is-loading">
+{% include about-section.html %}
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+{% include skills-section.html %}
 
-				<!-- Intro -->
-				<div id="intro">
-					<h1>{{site.title}}</h1>
-					<h2>Inspire girls to be future leaders <br /> & tomorrow's innovators</h2>
-					<ul class="actions">
-						<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
-					</ul>
-				</div>
+{% include experience-section.html %}
 
-				<!-- Header -->
-				<header id="header">
-					<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
-				</header>
+{% include education-section.html %}
 
-				<!-- Nav -->
-				<nav id="nav">
-					{% include nav.html %}
-				</nav>
+{% include services-section.html %}
 
-				<!-- Main -->
-				<div id="main">
-					<!-- Intro -->
-					<article class="post featured">
-						<header class="major">
-							<h2>Welcome to InspireHER Niagara</h2>
-							<!--<p>We're InspireHER Niagara, and we inspire girls in Niagara Region to be future leaders by offering workshops and opportunities.</p>-->
-						</header>
-						<p>InspireHER Niagara aspires to bridge the male-female gender equality gap by introducing more opportunities to girls and addressing challenges that girls age 13-18 in Niagara Region face. 
-						</p>
-					
-						<ul class="actions">
-							<li><a href="/about" class="button special">LEARN MORE</a></li>
-							<li><a href="/blog" class="button special">OUR EVENTS</a></li>
-						</ul>
-					</article>
-					
-					
-					<!-- Posts -->
-					<!--<section class="posts">
-						{% for post in site.posts limit:3 %}
-						{% assign mod3 = forloop.index | modulo: 3 %}
-						<article>
-							<header>
-								<span class="date">{{ post.date | date_to_string }}</span>
-								<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
-							</header>
-							<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
-							<p>{{ post.excerpt }}</p>
-							<ul class="actions">
-								<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
-							</ul>
-						</article>
-						
-						{% if mod3 == 0 %}
-						<article>
-							<header>
-								<h2><a href="#">Sponsored</a></h2>
-							</header>
+{% include portfolio-section.html %}
 
-						</article>
-						{% endif %}
-						{% endfor %}
+{% include testimonial-section.html %}
 
-					</section>-->
+{% include client-section.html %}
 
-					<!-- Footer -->
-					<!--<footer>
-						<ul class="actions">
-							<li><a href="{{ "/blog/" | absolute_url }}" class="button">Our Blog</a></li>
-						</ul>
-					</footer>-->
-
-				</div>
-
-				<!-- Footer -->
-        {% include foot.html %}
-
-			</div>
-
-		<!-- Scripts -->
-		{% include scripts-main.html %}
-    {% include tracking.html %}
-
-	</body>
-</html>
+{% include event-section.html %}

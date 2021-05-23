@@ -1,18 +1,30 @@
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<head>
+  <meta charset="utf-8">
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.data.settings.title }}{% endif %}</title>
 
-<title>{{ page.title }}</title>
-<meta name="description" content="{{ page.description }}">
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="{%if page.description%}{{page.description}}{%else%}{{site.data.settings.description}}{%endif%}">
+    
+  {% if site.author %}
+  <meta name="author" content="{{ . }}">
+  {% endif %}
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  {% for css in site.data.plugins.css %}
+  <link rel="stylesheet" href="{{ css | relative_url }}">
+  {% endfor %}
 
-<link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/icon/apple-touch-icon.png" | absolute_url }}">
-<link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/icon/favicon-32x32.png" | absolute_url }}">
-<link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/icon/favicon-16x16.png" | absolute_url }}">
-<link rel="manifest" href="{{ "/assets/icon/manifest.json" | absolute_url }}">
-<link rel="mask-icon" href="{{ "/assets/icon/safari-pinned-tab.svg" | absolute_url }}" color="#5bbad5">
-<link rel="shortcut icon" href="{{ "/assets/icon/favicon.ico" | absolute_url }}">
-<meta name="msapplication-config" content="{{ "/assets/icon/browserconfig.xml" | absolute_url }}">
-<meta name="theme-color" content="#ffffff">
+  <!-- Main Stylesheet -->
+  <link href="{{ '/assets/scss/style.css' | relative_url }}" rel="stylesheet">
 
-<!-- CSS -->
-<link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" />
-<noscript><link rel="stylesheet" href="{{ "/assets/css/noscript.css" | relative_url }}" /></noscript>
+  <!--Favicon-->
+  <link rel="shortcut icon" href="{{ '/assets/images/favicon.ico' | relative_url }} " type="image/x-icon">
+  <link rel="icon" href="{{ '/assets/images/favicon-32x32.png' | relative_url }} " type="image/x-icon">
+
+  <!-- google analytics -->
+  {% if site.data.settings.google-analytics %}
+    {% include google-analytics.html %}
+  {% endif %}
+
+</head>

@@ -1,69 +1,34 @@
-# Site
-title:              'InspireHER Niagara'
-bio:                'InspireHER Niagara - Inspire girls to be future leaders'
-description:        "InspireHER Niagara - Inspire girls to be future leaders"
-locale:             en_CA
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://inspireherniagara.ca" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /event
+url: "https://inspireherniagara.ca" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Comments
-disqus_shortname:   default
-
-# Social
-analytics-id:       "inspireherniagara"
-twitter:            HER_Niagara
-facebook:           inspireherniagarafb
-instagram:          inspireherniagara
-
-# personal
-location:           Niagara Region, Ontario
-phone:              905-324-2807
-email:              hello@inspireherniagara.ca # change this to your email to receive free emails for your contact submissions via Slapform.com
-
-# Other
-#background_image:   /images/bg.jpg
-# Tip: The color palette and other styles can be configured in /_sass/lib/_vars.scss
-slapform_thankyou_page: /thank-you
-
-defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    permalink: "/blog/:title/"
-    layout: post
-    author:
-
-# Jekyll
-permalink:          /blog/:title/
-markdown:           kramdown
-highlighter:        rouge
-kramdown:
-  auto_ids:         true
-  footnote_nr:      1
-  entity_output:    as_char
-  toc_levels:       1..6
-  enable_coderay:   false
-mathjax:            true
-sass:
-  sass_dir:         _sass
-  style:            compressed
-
-# Gems
-gems:
-  - jekyll-mentions
+# Build settings
+markdown: kramdown
+permalink: pretty
+plugins:
   - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
+compress_html:
+  clippings: all
+  comments: all
+  startings: [html, head, body]
 
-paginate: 6
-paginate_path: "/blog/page:num/"
+# Pages Path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
 
-jekyll-mentions:
-    base_url: https://github.com
+include:
+  - _pages
 
-# Exclude list
-exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, old]
+sass:
+  sass_dir: assets/scss
+  style: compressed
 
-#theme: jekyllup/jekyll-theme-massively
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.text
+  - README.md
+  - SECURITY.md
