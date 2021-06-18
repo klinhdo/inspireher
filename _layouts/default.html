@@ -12,7 +12,9 @@ layout: compress
 
   {{ content }}
 
-  {% include contact-section.html %}
+  {% if page.title != "Register" and page.title != "Survey" %} 
+    {% include contact-section.html %}
+  {% endif %}
 
   {% include footer.html %}
 

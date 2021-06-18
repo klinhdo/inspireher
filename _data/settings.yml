@@ -2,7 +2,7 @@
 # General Site Settings
 
 title: InspireHER Niagara
-logo: 
+logo: #check this
 author: 
 description: this is meta description
 email: hello@inspireherniagara.ca
@@ -14,6 +14,8 @@ menu:
 #- {name: About, link: '/about'}
 #- {name: Event, link: '/event'}
 #- {name: Portfolio, link: '/portfolio'}
+- {name: Register, link: '/register'}
+- {name: Survey, link: '/survey'}
 - {name: Contact, link: '/contact'}
 
 
@@ -35,7 +37,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 
 
 #-------------------------------
-# Hero Section
+# Hero Section - Front page
 
 hero:
   hero-title: Welcome to <br> InspireHER Niagara <br>
@@ -87,6 +89,10 @@ team:
   - title : "Julia Do"
     image : "assets/images/team/img-Julia.jpg"
     designation : "Team Lead"
+  
+  - title: "YuYeon Kim"
+    image: ""
+    designation: ""
 
 #-------------------------------
 # Skills Section
